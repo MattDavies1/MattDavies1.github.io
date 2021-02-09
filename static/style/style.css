@@ -1,4 +1,47 @@
+/* Define Pallete */
+:root {
+    --light:#F2E9E4;
+    --midLight:#C9ADA7;
+    --mid:#9A8C98;
+    --midDark:#4A4E69;
+    --dark:#22223B;
+    --accent:#FFCDB2;
+}
+
+/* Header & Navbar */
+header {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 80px;
+  }
+
+.navbar-custom { 
+    background-color: var(--dark); 
+  }
+
+.navbar-brand{
+    color: var(--accent);
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-brand {
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 80px;
+  }
+
+/* Carousel */
 .carousel-item {
     height: 32rem;
-    background: #777;
-}
+    background: var(--light);
+  }
+
+/* BODY STYLE */
+body {
+    background-color: white;
+  }
