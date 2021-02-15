@@ -56,7 +56,7 @@ a.navbar-brand{
 
 /* Carousel */
 .carousel-item {
-    height: 32rem;
+    /* height: 32rem; */
     background: var(--light);
   }
 
