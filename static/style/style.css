@@ -5,34 +5,22 @@
     --mid:#9A8C98;
     --midDark:#4A4E69;
     --dark:#22223B;
-    --accent:#FFCDB2;
+    --accent:#BDF2D8;
 }
 
-.light-text {
-  color: #F2E9E4;
-}
-
-/* Header & Navbar */
-html, body {
-  height:100%;
-}
-
+/* ------------ header ----------- */
 header {
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 45px;
-    padding-left: 0px;
-  }
-  
-#load-splash {
-  height: 95%;
-  background-color: var(--dark);
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 45px;
+  padding-left: 0px;
 }
 
+/* -------------- Nav ------------- */
 .navbar-dark { 
-    background-color: var(--dark);
-    color:var(--light)
-  }
+  background-color: var(--dark);
+  color:var(--light)
+}
 
 .nav-link {
   color: var(--light);
@@ -47,33 +35,56 @@ a.navbar-brand{
     color: white;
 }
 
-/* .navbar-brand {
-    padding-top: 5px;
-    padding-right: 30px;
-    padding-bottom: 5px;
-    padding-left: 80px;
-  } */
-
-/* Carousel */
+/* ----------- Carousel ----------- */
 .carousel-item {
-    /* height: 32rem; */
-    background: var(--light);
-  }
+  height: 65vmin;
+  background: var(--light);
+}
 
-/* BODY STYLE */
-body {
-    background-color: white;
-  }
+/* -------------- Bio ------------- */
+#bio-title {
+  color: var(--dark);
+  text-align: center;
+}
 
+/* ---------- Experience ---------- */
 #experience {
   background-color: var(--light);
 }
 
-#projects {
-  background-color: #BDF2D8;
+#experience-title {
+  color:var(--midDark);
+  text-align: center;
 }
 
+/* ----------- Projects ----------- */
+#projects {
+  background-color: var(--accent);
+}
+
+#projects-title {
+  color: var(--dark);
+  text-align: center;
+}
+
+/* ------------ Contact ----------- */
 #contact {
   background-color: #444;
   text:white;
+}
+
+#contact-title {
+  text-align: center;
+}
+
+.light-text {
+  color: #F2E9E4;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa {
+  color: white;
 }
