@@ -13,6 +13,13 @@
   padding-bottom: 10vmin;
 }
 
+#bio {
+  padding-top: 10vmin;
+  padding-bottom: 10vmin;
+  padding-right: 10vmin;
+  padding-left: 10vmin;
+}
+
 /* ------------ header ----------- */
 header {
   padding-top: 0px;
@@ -38,6 +45,10 @@ a.navbar-brand{
 
 .nav.nav-link {
     color: white;
+}
+
+.dropdown-backdrop {
+  position: static;
 }
 
 /* ----------- Carousel ----------- */
@@ -67,7 +78,7 @@ a.navbar-brand{
 
 /* ----------- Projects ----------- */
 #projects {
-  background-color: var(--accent);
+  background-color: var(--midLight);
 }
 
 #projects-title {
@@ -78,7 +89,6 @@ a.navbar-brand{
 /* ------------ Contact ----------- */
 #contact {
   background-color: #444;
-  text:white;
 }
 
 #contact-title {
@@ -89,10 +99,30 @@ a.navbar-brand{
   color: #F2E9E4;
 }
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 72px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
 .fa:hover {
   opacity: 0.7;
 }
 
-.fa {
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-github {
+  background: #6E5494;
   color: white;
 }
