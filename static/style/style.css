@@ -8,16 +8,30 @@
     --accent:#FFCDB2;
 }
 
+.light-text {
+  color: #F2E9E4;
+}
+
 /* Header & Navbar */
+html, body {
+  height:100%;
+}
+
 header {
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 45px;
     padding-left: 0px;
   }
+  
+#load-splash {
+  height: 95%;
+  background-color: var(--dark);
+}
 
 .navbar-dark { 
     background-color: var(--dark);
+    color:var(--light)
   }
 
 .nav-link {
