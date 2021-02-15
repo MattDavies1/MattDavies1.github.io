@@ -64,3 +64,16 @@ a.navbar-brand{
 body {
     background-color: white;
   }
+
+#experience {
+  background-color: var(--light);
+}
+
+#projects {
+  background-color: #BDF2D8;
+}
+
+#contact {
+  background-color: #444;
+  text:white;
+}
