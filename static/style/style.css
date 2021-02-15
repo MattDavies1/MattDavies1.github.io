@@ -44,6 +44,9 @@ a.navbar-brand{
 .carousel-item {
   height: 50vmin;
   background: var(--light);
+  position: relative;
+  background-position: center;
+  background-size: cover;
 }
 
 /* -------------- Bio ------------- */
